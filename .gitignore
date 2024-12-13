@@ -3,6 +3,7 @@
 data/
 2024/*/data
 .DS_Store
+.pdm-python
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
