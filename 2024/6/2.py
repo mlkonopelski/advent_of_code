@@ -45,7 +45,7 @@ def search_loop(map, start, debug=False):
     i, j = start
     path = defaultdict(list)
 
-    while (i<max_rows-1 and i > 0) and (j<max_columns-1 and j > 0) and loop < 2:
+    while (i<max_rows-1 and i > 0) and (j<max_columns-1 and j > 0):
 
         # which way we go?
         looking = map[i, j].item()
